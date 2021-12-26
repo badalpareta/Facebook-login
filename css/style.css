@@ -48,9 +48,16 @@ background-color: #ffffff;
     text-align: center;
 }
 @media (max-width: 980px) {
-    .col-logo, .col-form {
+    .row{
       flex: 100%;
+      flex-direction:column ;
+
     }
+    .col-form .col-logo{
+        flex:auto;
+        text-align: center;
+    }
+    
 }
 .col-logo img
 {
@@ -149,6 +156,7 @@ max-width: 300px;
 .col-form p a:hover
 {
     text-decoration: underline;
+    
 }
 .footer-contents
 {
